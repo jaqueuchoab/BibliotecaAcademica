@@ -1,5 +1,6 @@
 const TrabalhoService = require('../services/trabalhoService');
 
+// Controlador para gerenciar as rotas de trabalhos
 const TrabalhoController = {
   getAll: (req, res) => {
     TrabalhoService.getAll((err, results) => {

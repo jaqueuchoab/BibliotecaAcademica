@@ -1,5 +1,6 @@
 const connection = require('../config/database');
 
+// Funcionalidades para o modelo Trabalho
 const TrabalhoModel = {
   getAll: (callback) => {
     const query = `

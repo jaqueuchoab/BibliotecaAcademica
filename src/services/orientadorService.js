@@ -1,5 +1,6 @@
 const OrientadorModel = require('../models/orientadorModel');
 
+// Serviço para gerenciar orientadores
 const OrientadorService = {
   getAll: (callback) => {
     OrientadorModel.getAll(callback);

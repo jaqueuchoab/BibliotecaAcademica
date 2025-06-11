@@ -1,5 +1,6 @@
 const connection = require('../config/database');
 
+// Funcionalidades para o modelo Orientador
 const OrientadorModel = {
   getAll: (callback) => {
     const query = 'SELECT * FROM orientadores';
